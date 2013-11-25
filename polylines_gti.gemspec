@@ -7,7 +7,15 @@ Gem::Specification.new do |s|
   s.homepage = "https://github.com/stianselland/polylines_gti"
   s.authors = ["Stian Selland"]
   s.email = "stian@quicklog.no"
-  s.files = ["lib/polylines_gti.rb"]
-  s.extensions = %w[ext/polylines_gti/extconf.rb]
   s.license = "GPL2"
+  s.extensions = %w[ext/polylines_gti/extconf.rb]
+  s.files = %w[ 
+    LICENSE
+    Rakefile
+    ext/polylines_gti/extconf.rb
+    ext/polylines_gti/polylines_gti.c
+    lib/polylines_gti.rb
+    lib/polylines_gti/version.rb
+  ]
+
 end
