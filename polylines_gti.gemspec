@@ -8,5 +8,6 @@ Gem::Specification.new do |s|
   s.authors = ["Stian Selland"]
   s.email = "stian@quicklog.no"
   s.files = ["lib/polylines_gti.rb"]
+  s.extensions = %w[ext/polylines_gti/extconf.rb]
   s.license = "GPL2"
 end
